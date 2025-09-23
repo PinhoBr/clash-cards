@@ -1,50 +1,51 @@
-@font-face {
-            font-family: "Luckiest Guy";
-            src: url(../font/You\ Blockhead.ttf);
-        }
+ @font-face {
+  font-family: "Luckiest Guy";
+  src: url(../font/You\ Blockhead.ttf);
+}
 
-        body{
-            background: url(../img/background.png);
-            background-size: 100%;
-            font-family: "Luckiest Guy", cursive;
-            font-size: 1rem;
-        }
+body{
+    background: url(../img/background.png);
+    background-size: 100%;
+    font-family: "Luckiest Guy", cursive;
+    font-size: 1rem;
+}
 
-        .luckiest-guy {
-            font-family: "Luckiest Guy", cursive;
-        }
+.luckiest-guy {
+    font-family: "Luckiest Guy", cursive;
+}
 
-        main{
-            max-width: 900px;
-            margin: auto;
-            padding: 0.5rem;
-            text-align: center;
-        }
+main{
+    max-width: 900px;
+    margin: auto;
+    padding: 0.5rem;
+    text-align: center;
+}
 
-        .container{
-            font-family: "roboto", sans-serif;
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
-            gap: 1rem;
-            justify-content: center;
-            align-items: center;
-            margin: auto;
-            padding: 1rem 0;
-        }
+.container{
+    font-family: "roboto", sans-serif;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 1rem 0;
+}
 
-        .card{
-            background-color: aliceblue;
-            display: flex;
-            align-items: center;
-            flex-direction: column;
-            width: 15rem;
-            min-height: 18rem;
-            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19);
-            border-radius: 10px;
-            margin: auto;
-            overflow: hidden;
-        }
-        .logo {
+.card{
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 15rem;
+    min-height: 18rem;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.logo {
     display: block;
     max-width: 500px;
     margin: 2rem auto; 
