@@ -50,3 +50,50 @@ main{
     max-width: 500px;
     margin: 2rem auto; 
 }
+.raridade--comum {
+    /* Box Shadow (Aura) */
+    box-shadow: 0 0 10px 3px rgba(170, 170, 170, 0.7); /* Sombra cinza clara */
+}
+/* Cor do Título para a raridade Comum */
+.raridade--comum .card--title {
+    color: #AAAAAA; /* Cinza */
+}
+
+
+/* 2. RARIDADE RARA (Azul) */
+.raridade--rara {
+    /* Box Shadow (Aura) */
+    box-shadow: 0 0 15px 5px rgba(0, 150, 255, 0.8); /* Sombra azul */
+}
+/* Cor do Título para a raridade Rara */
+.raridade--rara .card--title {
+    color: #0096FF; /* Azul */
+}
+
+
+/* 3. RARIDADE ÉPICA (Roxo) */
+.raridade--epica {
+    /* Box Shadow (Aura) */
+    box-shadow: 0 0 20px 8px rgba(160, 0, 255, 0.85); /* Sombra roxa mais forte */
+}
+/* Cor do Título para a raridade Épica */
+.raridade--epica .card--title {
+    color: #A000FF; /* Roxo */
+}
+
+
+/* 4. RARIDADE LENDÁRIA (Laranja/Dourado) */
+.raridade--lendaria {
+    /* Box Shadow (Aura) */
+    box-shadow: 
+        0 0 10px 5px rgba(255, 165, 0, 0.9), /* Sombra laranja */
+        0 0 25px 10px rgba(255, 215, 0, 0.5); /* Sombra dourada mais suave */
+    /* Você pode adicionar um leve tilt ou borda dourada para a lendária */
+    border: 2px solid gold;
+}
+/* Cor do Título para a raridade Lendária */
+.raridade--lendaria .card--title {
+    color: #FFD700; /* Dourado */
+    /* Adicione sombra de texto para destaque */
+    text-shadow: 0 0 5px rgba(255, 165, 0, 0.8);
+}
